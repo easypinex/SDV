@@ -1,0 +1,32 @@
+{
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1",
+    "columns": {
+        "\u59d3\u540d": {
+            "sdtype": "name",
+            "pii": true
+        },
+        "\u8eab\u5206\u8b49\u5b57\u865f": {
+            "sdtype": "id"
+        },
+        "\u6027\u5225": {
+            "sdtype": "categorical"
+        },
+        "\u751f\u65e5": {
+            "sdtype": "datetime"
+        },
+        "\u90f5\u905e\u5340\u865f": {
+            "sdtype": "text",
+            "pii": true
+        },
+        "\u5e74\u6536\u5165-\u842c": {
+            "sdtype": "numerical"
+        },
+        "\u8cb8\u6b3e\u7533\u8acb\u65e5": {
+            "sdtype": "datetime"
+        },
+        "\u8cb8\u6b3e\u91d1\u984d-\u842c": {
+            "sdtype": "numerical"
+        }
+    },
+    "primary_key": "\u8eab\u5206\u8b49\u5b57\u865f"
+}
